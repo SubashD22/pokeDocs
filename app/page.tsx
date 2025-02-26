@@ -62,6 +62,7 @@ export default async function Home({ searchParams }: { searchParams: Promise<{ q
           overflow='hidden'
           px={[4, 6]}
           w="100%"
+          mb={4}
         >
           {results.map((p: Results, i: number) => {
             return <Box key={i} margin='0 auto'>
