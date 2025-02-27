@@ -1,6 +1,9 @@
-PokeDocs is a web application built with [Next.js](https://nextjs.org).
+# PokeDocs 
 
-## Getting Started
+PokeDocs is a web application built with [Next.js](https://nextjs.org) that provides documentation for Pokémon, utilizing the PokeAPI.
+Using Next.js server-side components, pages are statically generated with improved SEO, by dynamic meta tags for each Pokémon.
+
+## How to run
 
 First, clone the repo:
 
