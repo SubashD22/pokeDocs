@@ -79,7 +79,7 @@ export default async function Home({ searchParams }: { searchParams: Promise<{ q
           px={[4, 6]}
         >
           <Image
-            src="/fail.gif"
+            src="/emptyball.png"
             alt="fail"
             width={[50, 100]}
             height={[50, 100]}

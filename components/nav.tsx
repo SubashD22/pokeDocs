@@ -27,7 +27,7 @@ function Nav() {
               fontSize="xl"
               fontWeight="bold"
               lineHeight="tight"
-              textShadow="-1px -1px 0 #3C5AA6, 1px -1px 0 #3C5AA6, -1px 1px 0 #3C5AA6, 1px 1px 0 #3C5AA6"
+              textShadow="-2px -2px 0 #3C5AA6, 2px -2px 0 #3C5AA6, -2px 2px 0 #3C5AA6, 2px 2px 0 #3C5AA6"
             >
               PokéDocs
             </Box>
