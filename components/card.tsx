@@ -12,16 +12,16 @@ async function Cards({ url }: CardProps) {
     <Box overflow="hidden">
       <Link href={`/pokemon/${data.name}`}>
         <Card.Root
-          minW={["340px", "sm", "xl", "2xl"]}
+          minW={["340px", "340px", "xl", "2xl"]}
           overflow="hidden"
           p={2}
-          flexDirection={["column", "row"]}
+          flexDirection={["column", "column", "row"]}
           maxW={["sm", "xl", "2xl"]}
           variant="outline"
           bg="white"
           borderColor="#3C5AA6"
           _hover={{
-						borderColor: "#FFCB05",
+            borderColor: "#FFCB05",
           }}
         >
           <Image
@@ -46,6 +46,7 @@ async function Cards({ url }: CardProps) {
               variant="bold"
               w="100%"
               mt={2}
+              display={["none", "none", "flex"]}
             >
               {data.stats.map(
                 (item: { stat: { name: string }; base_stat: number }) =>
@@ -84,7 +85,7 @@ async function Cards({ url }: CardProps) {
                   </Box>
               )}
             </DataList.Root>
-            <Box display="flex" flexDirection="row" gap={2} marginTop={4}>
+            <Box display="flex" flexDirection="row" gap={2} mt={[2, 2, 4]} justifyContent={["center", "center", "flex-start"]}>
               {data.types.map((type: { type: { name: string } }) =>
                 <Badge
                   key={type.type.name}

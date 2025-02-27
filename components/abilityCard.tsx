@@ -13,7 +13,7 @@ async function AbilityCard({ ability }: AbilityCardProps) {
   const abilityData = await data.json()
   return (
     <Card.Root
-      width="320px"
+      width="300px"
       height='160px'
       bg="#2A75BB"
       borderColor="#3C5AA6"
